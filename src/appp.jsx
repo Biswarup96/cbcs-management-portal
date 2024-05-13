@@ -9,7 +9,6 @@ function appp() {
     const addAssignment = (newAssignment) => {
         setAssignments([...assignments, newAssignment]);
     };
-
     return (
         <div>
             <h1>Assignment Panel</h1>
